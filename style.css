@@ -1,0 +1,44 @@
+#p1{
+    color: red;
+    font-size: 30px;
+    background-color: yellow;
+    max-width: 50%;
+}
+#p2{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    max-width: 50%;
+}
+.white{ 
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    max-width: 50%;
+    
+}
+#p3{
+    color: green;
+    font-size: 30px;
+    background-color: yellow;
+    max-width: 50%;
+}
+.ulist{
+    font-size: 30px;
+    color:white ;
+    list-style-type: none;
+    padding: 10px;
+    background-color: blueviolet;
+    margin:5px;
+    border:2px solid black;
+    background-image: url(iconfinder_star_fav_42362.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    max-width: 50%;
+}
+.ulist:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+    transform: translateX(20px);
+    opacity: 0.5;
+}
