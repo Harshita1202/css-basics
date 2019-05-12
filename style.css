@@ -42,3 +42,25 @@
     transform: translateX(20px);
     opacity: 0.5;
 }
+.container{
+    display: flex;
+    flex-wrap:wrap; 
+}
+.space_around{
+    display: flex;
+    justify-content: space-around;
+}
+.container1{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around; 
+}
+.absolute1{
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    right:0px;
+}
